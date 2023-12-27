@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: beige;
+}
+
+main{
+    margin: 2vh 0 2vw;
+}
+
+#logo-con{
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: larger;
+}
+
+#logo-con img{
+    height: 22rem;
+    width: 22rem;
+    border-radius: 50%;
+}
+
+section#desc{
+    font-family: 'Single Day', cursive;
+    font-weight: 500;
+    font-size: larger;
+    margin: 1vh 1vw;
+    padding: 5px;
+}
+
+section#contact{
+    font-family: 'Calligraffitti', cursive;
+    font-size: large;
+    font-weight: 600;
+    margin: 1vh 1vw;
+    padding: 5px;
+}
+
+section#contact ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    width: 94vw;
+}
+
+section#contact ul li{
+    margin: 5px;
+    border-radius: 25px;
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+section#contact ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 7px;
+    border: 2px solid gray;
+    background-color: black;
+    border-radius: 20px;
+    width: 5em;
+    text-align: center;
+    transition: all 0.2s smooth;
+}
+
+section#contact ul li a:hover{
+    color: black;
+    border: 2px solid black;
+    background-color: whitesmoke;
+}
